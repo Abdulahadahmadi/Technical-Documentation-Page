@@ -190,14 +190,35 @@
                 example:<br><br>
 
                 <div id="if_div13"><code>if ((x = y)) { /* statements here */ }/code></div><br><br>
-
-                
-
-
-
-
         </p>
     </section>
+
+    <section class="main-section">
+        <header id="while_statement"><h2>while statement</h2></header>
+        <p>
+            A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:<br><br>
+            <div id="while_div14"><code>while (condition) statement</code></div><br><br>
+            If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop.<br><br>
+            The condition test occurs before statement in the loop is executed. If the condition returns true, statement is executed and the condition is<br</p><br>
+            tested again. If the condition returns false, execution stops and control is passed to the statement following while.<br><b>
+                To execute multiple statements, use a block statement ({ ... }) to group those statements.<br><br>
+                Example:<br><br>
+                The following while loop iterates as long as n is less than three:<br><br>
+                <div id="while_div15"><code>var n = 0; var x = 0; while (n < 3) { n++; x += n; }</code></div><br><br>
+                With each iteration, the loop increments n and adds that value to x. Therefore, x and n take on the following values:<br><br>
+
+                <ul>
+                    <li>After the first pass: n = 1 and x = 1</li>
+                    <li>After the second pass: n = 2 and x = 3</li>
+                    <li>After the third pass: n = 3 and x = 6</li>
+                </ul><br><br>
+
+                After completing the third pass, the condition n < 3 is no longer true, so the loop terminates.<br><br>
+        </p>
+    </section>
+
+    
+
 
     </main>
 
