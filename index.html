@@ -1,12 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentation page</title>
-    
-
 </head>
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
@@ -33,7 +33,7 @@
         </ul>      
         </section>
         <section class="main-section">
-            <header id="What_should"><h2>What you should already know</h2></header>
+            <header id="what_should"><h2>What you should already know</h2></header>
             <p>This guide assumes you have the following basic background:</p>
             <ul>
                 <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
@@ -42,7 +42,7 @@
             </ul>
         </section>
         <section class="main-section">
-        <header id="Javascript_java"><h2>JavaScript and Java</h2></header>
+        <header id="javascript_java"><h2>JavaScript and Java</h2></header>
         <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static<br>
             typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it<br>
             was renamed from LiveScript to JavaScript.<br>
@@ -56,16 +56,40 @@
             typed.<br>
         </p>
         </section>
-
         <section class="main-section">
-
+            <header id="hello_world"><h2>Hello world</h2></header>
+            <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+            <div id="section_hello_div">
+                <code>function greetMe(yourName) { alert("Hello " + yourName); }</code><br>
+                <code>greetMe("World");</code>
+            </div>
         </section>
-
         <section class="main-section">
-
+        <header id="varibles_head"><h2>Variables</h2></header>
+        <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.<br>
+            A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case
+            <br>
+            sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).<br>
+            <br>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some<br>
+            examples of legal names are Number_hits, temp99, and _name.<br>
+        </p>
         </section>
-        
-
+    <section class="main-section">
+        <header id="declaring_var"><h2>Declaring variables</h2></header>
+        <p>You can declare a variable in three ways:<br></p>
+        <p>
+            With the keyword var. For example,<br>
+        </p>
+        <div id="var_dec_div"><code>var x = 42.</code></div>
+        <p>This syntax can be used to declare both local and global variables.<br></p>
+        <p>By simply assigning it a value. For example,</p><br>
+        <div id="var_dec_div2"><code>x = 42.</code></div>
+        <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.<br>
+        </p><br>
+        <p>With the keyword let. For example,</p><br>
+        <div id="var_dec_div3"><code>let y = 13.</code></div><br>
+        <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p><br>
+    </section>
     </main>
 
 
