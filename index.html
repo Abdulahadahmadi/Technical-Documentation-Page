@@ -158,7 +158,47 @@
         </p>
     </section>
 
- 
+    <section class="main-section">
+        <header id="if_else"><h2>if...else statement</h2></header>
+        <p>
+            Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is<br>
+            false. An if statement looks as follows:<br><br>
+            <div id="if_div9"><code>if (condition) { statement_1; } else { statement_2; }</codde></div><br><br>
+                condition can be any expression that evaluates to true or false. See Boolean for an explanation of what evaluates to true and false. If<br>
+                condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any<br>
+                statement, including further nested if statements.<br><br>
+                You may also compound the statements using else if to have multiple conditions tested in sequence, as follows:<br><br>
+                <div id="if_div10"><code>if (condition_1) { statement_1; } else if (condition_2) { statement_2;<br>      
+                } else if (condition_n) { statement_n; } else { statement_last; }</code></div><br><br>
+
+                In the case of multiple conditions only the first logical condition which evaluates to true will be executed. To execute multiple statements,<br>
+                group them within a block statement ({ ... }) . In general, it's good practice to always use block statements, especially when nesting if<br>
+                statements:<br><br>
+
+                <div id="if_div11"><code>
+                    if (condition) { statement_1_runs_if_condition_is_true;<br>
+                        statement_2_runs_if_condition_is_true; } else {<br>
+                            statement_3_runs_if_condition_is_false;<br>
+                            statement_4_runs_if_condition_is_false; }
+                </code></div><br><br>
+
+                It is advisable to not use simple assignments in a conditional expression, because the assignment can be confused with equality when<br>
+                glancing over the code. For example, do not use the following code:<br><br>
+                <div code="if_div12"><code>if (x = y) { /* statements here */ }</code></div><br><br>
+
+                If you need to use an assignment in a conditional expression, a common practice is to put additional parentheses around the assignment. For<br>
+                example:<br><br>
+
+                <div id="if_div13"><code>if ((x = y)) { /* statements here */ }/code></div><br><br>
+
+                
+
+
+
+
+        </p>
+    </section>
+
     </main>
 
 
