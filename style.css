@@ -17,5 +17,15 @@ body{
 
 }
 #main-doc{
-    margin-left: 301px;
+    margin-left: 320px;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+#section_hello_div{
+    background-color: #f7f7f7;
+    padding-left: 40px;
+
 }
