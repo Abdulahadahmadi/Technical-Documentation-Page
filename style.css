@@ -14,7 +14,6 @@ body{
     height: 100%;
     width: 300px;
     border-radius: rgba(0, 22, 22, 0.4);
-
 }
 #main-doc{
     margin-left: 320px;
@@ -26,6 +25,7 @@ body{
 }
 #section_hello_div{
     background-color: #f7f7f7;
-    padding-left: 40px;
+    padding-left: 10px;
+    padding-right: 40px;
 
 }
