@@ -16,8 +16,12 @@ body{
     border-radius: rgba(0, 22, 22, 0.4);
     margin-bottom: 10px;
     margin-right: 50px;
+<<<<<<< HEAD
 
     
+=======
+    overflow-y: auto;
+>>>>>>> ae3234fd173ae89a53d9e32aed0d9639d54a63f8
     
 }
 #main-doc{
@@ -37,7 +41,6 @@ body{
 }
   .ul1{
     list-style: none;
-    
   }
   #navhead{
     margin-left: 50px;
