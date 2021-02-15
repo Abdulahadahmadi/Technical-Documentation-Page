@@ -17,7 +17,7 @@ body{
     border-radius: rgba(0, 22, 22, 0.4);
     margin-bottom: 10px;
     margin-right: 50px;
-    
+    overflow-y: auto;
     
 }
 #main-doc{
@@ -39,7 +39,6 @@ body{
 
   .ul1{
     list-style: none;
-    
   }
   #navhead{
     margin-left: 50px;
