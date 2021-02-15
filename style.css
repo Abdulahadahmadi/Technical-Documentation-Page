@@ -5,6 +5,12 @@ body{
     font-family: 'Open Sans', Arial, sans-serif;
     line-height: 1.5;
 }
+header{
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+}
 #navbar {
     position: fixed;
     min-width: 300px;
@@ -16,13 +22,7 @@ body{
     border-radius: rgba(0, 22, 22, 0.4);
     margin-bottom: 10px;
     margin-right: 50px;
-<<<<<<< HEAD
-
-    
-=======
     overflow-y: auto;
->>>>>>> ae3234fd173ae89a53d9e32aed0d9639d54a63f8
-    
 }
 #main-doc{
     margin-left: 320px;
@@ -33,7 +33,7 @@ body{
     text-align: center;
     list-style: none;
 }
-#section_hello_div{
+.section_hello_div{
     background-color: #f7f7f7;
     padding-left: 10px;
     padding-right: 40px;
@@ -47,7 +47,7 @@ body{
   }
 
   @media (max-width: 400px) {
-    #main-doc {
-      margin-left: -10px;
+    body {
+      background: rgb(105, 196, 226);
     }
 }
