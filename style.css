@@ -7,7 +7,7 @@ body{
 }
 header{
   font-family: monospace;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bolder;
   color: black;
 }
@@ -44,6 +44,7 @@ header{
   }
   #navhead{
     margin-left: 50px;
+    font-size: 15px;
   }
 
   @media (max-width: 400px) {
