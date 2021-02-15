@@ -15,8 +15,13 @@
     <!--Navigation Start-->
 
         <nav id="navbar">
+<<<<<<< HEAD
             <header><h1>JS Documentation</h1></header><hr>
             <ul >
+=======
+            <header id="navhead"><h1>JS Documentation</h1></header><hr>
+            <ul class="ul1">
+>>>>>>> 19f2f113789f700cdbd266939ba6eaed16c3d4ee
                 <li>
                     <a class="nav-link" href="#Introduction">Introduction</a><hr>
                 </li>
@@ -24,7 +29,7 @@
                     <a class="nav-link" href="#What_you_should_already_know">What you should already know </a><hr>
                 </li>
                 <li>
-                    <a class="nav-link" href="#JavaScript_&_Java">JavaScript and Java</a><hr>
+                    <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a><hr>
                 </li>
                 <li>
                     <a class="nav-link" href="#Hello_world">Hello World</a><hr>
@@ -67,8 +72,8 @@
     <!--start of main-->
     <main id="main-doc">
         <!--Introduction Section-->
-        <section class="main-section">
-                <header id="Introduction"><h2>Introduction</h2></header>
+        <section id="Introduction" class="main-section">
+                <header ><h2>Introduction</h2></header>
                 <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser),<br>
                     JavaScript can be connected to the objects of its environment to provide programmatic control over them.<br>
                     JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and<br>
@@ -88,8 +93,8 @@
         <!--end of introduction section-->
 
         <!--what should learn section-->
-        <section class="main-section">
-            <header id="What_you_should_already_know"><h2>What you should already know</h2></header>
+        <section id="What_you_should_already_know" class="main-section">
+            <header ><h2>What you should already know</h2></header>
             <p>This guide assumes you have the following basic background:</p>
             <ul>
                 <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
@@ -100,8 +105,8 @@
         <!-- end of should learn section-->
 
         <!--javascript and java Section-->
-        <section class="main-section">
-        <header id="JavaScript_&_Java"><h2 id="JavaScript_&_Java">JavaScript and Java</h2></header>
+        <section id="JavaScript_and_Java" class="main-section">
+        <header ><h2 id="JavaScript_and_Java">JavaScript and Java</h2></header>
         <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static<br>
             typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it<br>
             was renamed from LiveScript to JavaScript.<br>
@@ -118,8 +123,8 @@
         <!--end of javascript and java Section-->
 
         <!--hello world section-->
-        <section class="main-section">
-            <header id="Hello_world"><h2>Hello world</h2></header>
+        <section id="Hello_world" class="main-section">
+            <header ><h2>Hello world</h2></header>
             <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
             <div id="section_hello_div">
                 <code>function greetMe(yourName) { alert("Hello " + yourName); }</code><br>
@@ -129,8 +134,8 @@
         <!--end of hello world section-->
 
         <!--variable section-->
-        <section class="main-section">
-        <header id="Variables"><h2>Variables</h2></header>
+        <section id="Variables" class="main-section">
+        <header ><h2>Variables</h2></header>
         <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.<br>
             A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case
             <br>
@@ -142,8 +147,8 @@
         <!--end of variable section-->
 
         <!--declaring variable section-->
-    <section class="main-section">
-        <header id="Declaring_variables"><h2>Declaring variables</h2></header>
+    <section id="Declaring_variables" class="main-section">
+        <header ><h2>Declaring variables</h2></header>
         <p>You can declare a variable in three ways:<br></p>
         <p>
             With the keyword var. For example,<br>
@@ -162,8 +167,8 @@
     <!--end of declaring variable section-->
 
     <!--variable scope section-->
-    <section class="main-section">
-        <header id="Variable_scope"><h2>Variable scope</h2></header>
+    <section id="Variable_scope" class="main-section">
+        <header ><h2>Variable scope</h2></header>
         <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current<br>
             document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.<br><br>
             JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function<br>
@@ -179,8 +184,8 @@
     <!--end of variable scope section--> 
 
     <!--golbal variable section-->
-    <section class="main-section">
-            <header id="Global_variables"><h2>Global variables</h2></header>
+    <section id="Global_variables" class="main-section">
+            <header ><h2>Global variables</h2></header>
             <p>Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global<br>
                 variables using the window.variable syntax.<br><br>
                 Consequently, you can access global variables declared in one window or frame from another window or frame by specifying the window or<br>
@@ -191,8 +196,8 @@
     <!--end of golbal variable section-->
 
     <!--constants section-->
-    <section class="main-section">
-        <header id="Constants"><h2>Constants</h2></header>
+    <section id="Constants" class="main-section">
+        <header ><h2>Constants</h2></header>
         <p>
             You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier:<br>
             it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.<br><br>
@@ -212,8 +217,8 @@
     <!--end of constants section-->
 
     <!--data types section-->
-    <section class="main-section">
-        <header id="Data_Types"><h2>Data Types</h2></header>
+    <section id="Data_Types" class="main-section">
+        <header ><h2>Data Types</h2></header>
         <p>
             The latest ECMAScript standard defines seven data types:<br>
             <ul>
@@ -236,8 +241,8 @@
     <!--end of data types section-->
 
     <!--if else section-->
-    <section class="main-section">
-        <header id="if...else_statement"><h2>if...else statement</h2></header>
+    <section id="if...else_statement" class="main-section">
+        <header ><h2>if...else statement</h2></header>
         <p>
             Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is<br>
             false. An if statement looks as follows:<br><br>
@@ -273,8 +278,8 @@
     <!--end of if else section-->
 
     <!--while section-->
-    <section class="main-section">
-        <header id="while_statement"><h2>while statement</h2></header>
+    <section id="while_statement" class="main-section">
+        <header ><h2>while statement</h2></header>
         <p>
             A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:<br><br>
             <div id="while_div14"><code>while (condition) statement</code></div><br><br>
@@ -299,8 +304,8 @@
     <!--end ofwhile section-->
 
     <!--Function Declaration section-->
-    <section class="main-section">
-        <header id="Function_declarations"><h2>Function declarations</h2></header>
+    <section id="Function_declarations" class="main-section">
+        <header ><h2>Function declarations</h2></header>
         <p>
             A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:<br><br>
             <ul>
@@ -322,8 +327,8 @@
     <!--end of function declaring section-->
 
     <!--reference section-->
-    <section class="main-section"> 
-        <header id="Reference"><h2>Reference</h2></header>
+    <section id="Reference" class="main-section"> 
+        <header ><h2>Reference</h2></header>
         <p>
             <ul>
                 <li>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
